@@ -1,6 +1,6 @@
 #Complex Class
 This program is the implementation of the Complex class, the interface of which is as defined in it. 
-To make it easier for testing the implementation, also given are the driver pro-gram and the output of the driver program.
+To make it easier for testing the implementation, also given are the driver program and the output of the driver program.
 The implementation of the Complex class has to be in a separate file named Complex.cpp.
 
 ##How to run this program
@@ -21,5 +21,5 @@ Just type,
 ./EXE
 ```
 
-Then it will work successfully.
+Fianl, it will work successfully.
 
