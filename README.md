@@ -13,7 +13,7 @@ make help
 or
 
 ```
-make clean all
+make clean dep all
 ```
 It will compile all the code, then create the execution file.
 Just type,
