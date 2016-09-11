@@ -15,13 +15,10 @@ main.o: main.cpp
 	$(CC) $(CXXFLAGS) -c main.cpp
 
 dep:
-	echo "hi"
+	$(CC) -M *.cpp > .depend
 
 clean:
-	rm -f *.o complex
-
-DEBUG:
-	@echo "Debugger mode" 
+	rm -f *.o complex .depend
 
 help:
 	@echo "This is makefile command information:"
